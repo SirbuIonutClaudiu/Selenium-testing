@@ -1,1 +1,6 @@
-my Description
+-> cerinte
+-> functionalitati
+-> ux
+-> integrarea cu alte limbaje/sistem
+-> limbaje folosite
+-> cum face app viata mea mai buna

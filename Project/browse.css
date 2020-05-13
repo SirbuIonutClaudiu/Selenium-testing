@@ -1,0 +1,179 @@
+/* CSS Document */
+
+*  { margin:0px; border:0px; padding:0px; }
+
+body { background-color:#2c3338; }
+
+.box { width:250px;
+	   padding:3px 0px;
+	   text-align:center;
+		background-color:#3b4148;
+		border:1.5px #999 solid;
+		color:#FFF; }
+
+#search { width:300px;
+		  margin:50px auto; }
+
+#pg  { margin-left:425px;
+	   margin-top:15px;}
+#tr_page { color:#EBEBEB; }
+
+#footer { clear:both; 
+		 border-top:1px #666 solid;
+		 padding:10px 0;}
+#footer p { color:#ebebeb;}
+#wrapper { width:900px;
+			margin:10px auto;
+			padding:0 40px; }
+			
+#content { margin:50px 0;}
+
+#table_container {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	width:100%;
+}
+
+#table_container td { 
+    border-bottom:1px solid #ddd;
+  	text-align: center;
+    padding: 8px;
+}
+#table_container th {
+    border-top: 1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	font-size:17px;
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+
+#table_container tr:nth-child(even){background-color: #FFF;}
+#table_container tr:nth-child(odd){background-color: #ebebeb;}
+
+#table_container tr:hover {background-color:;}
+
+#table_container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ceab52;
+    color: white;
+}
+	
+#cssmenu,
+#cssmenu > ul {
+  background: url(images/highlight-bg.png) repeat;
+  padding-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: "";
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  width: auto;
+  zoom: 1;
+}
+#cssmenu > ul {
+  background: url(images/menu-bg.png) repeat;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu > ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu > ul > li {
+  float: left;
+  position: relative;
+}
+#cssmenu > ul > li > a {
+  padding: 23px 26px;
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #0d0d0d;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+  line-height: 18px;
+}
+#cssmenu > ul > li:hover > a {
+  background: url(images/highlight-bg.png) repeat;
+  text-shadow: 0 -1px 0 #97321f;
+  text-shadow: 0 -1px 0 rgba(122, 42, 26, 0.64);
+}
+#cssmenu > ul > li > a > span {
+  line-height: 18px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li > a:active {
+  background: url(images/hover.png) repeat;
+}
+/* Childs */
+#cssmenu > ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 120px;
+  background: url(images/menu-bg.png) repeat;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+#cssmenu > ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+  color: #000;
+  z-index: 2;
+  top: 64px;
+  left: 0;
+}
+#cssmenu > ul ul:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+#cssmenu > ul ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#cssmenu > ul ul li a {
+  padding: 18px 26px;
+  display: block;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  border-left: 4px solid transparent;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+#cssmenu > ul ul li a:hover {
+  border-left: 4px solid #d64e34;
+  background: url(images/hover.png) repeat;
+}
+#cssmenu > ul ul li a:active {
+  background: url(images/menu-bg.png) repeat;
+}
+
+

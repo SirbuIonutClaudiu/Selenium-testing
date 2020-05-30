@@ -1,0 +1,26 @@
+-> SignUp form upload testing :
+Sign_up test case1 was not introduced into form
+Sign_up test case2 was not introduced into form
+Sign_up test case3 was not introduced into form
+Sign_up test case4 was not introduced into form
+Sign_up test case5 was not introduced into form
+-> SignUp check accuracy of database input :
+Connected to users database successfully !
+Sign_up test case 0 is not in the database
+Sign_up test case 1 is not in the database
+Sign_up test case 2 found in database
+Sign_up test case 3 found in database
+Sign_up test case 4 found in database
+-> UploadActor form upload testing :
+Introduce Actor test case 1 was introduced into form successfully
+Introduce Actor test case 2 was introduced into form successfully
+Introduce Actor test case 3 was introduced into form successfully
+Introduce Actor test case 4 was introduced into form successfully
+Introduce Actor test case 5 was introduced into form successfully
+-> UploadActor check accuracy of database input :
+Connected to movies database successfully !
+Upload Actor test case 0 found in database
+Upload Actor test case 1 found in database
+Upload Actor test case 2 found in database
+Upload Actor test case 3 found in database
+Upload Actor test case 4 found in database

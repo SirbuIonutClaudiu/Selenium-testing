@@ -27,7 +27,7 @@
        <td class="input2"><input type="password" size=30 name="password" placeholder="Password" class="text" form="login" required/></td>
      </tr>
      <tr>
-       <td colspan="2" align="center" class="submit"><input type="submit" value="SIGN IN" class="submit" width="300" form="login"></td>
+       <td colspan="2" align="center" class="submit"><input type="submit" name="submit" value="SIGN IN" class="submit" width="300" form="login"></td>
      </tr>
      <tr>
        <td colspan="2" align="center" class="bottom">Not a member yet ?&nbsp;&nbsp;&nbsp;&nbsp; <a href="sign_up.php">Sign up now</a></td>

@@ -27,7 +27,7 @@
         	
             <li>
               <form action="sign_in.php" method="get">
-                <input type="submit" value="Return to Log In" class="submit">
+                <input type="submit" name=submit" value="Return to Log In" class="submit">
               </form>
             </li>
          </ul>  
